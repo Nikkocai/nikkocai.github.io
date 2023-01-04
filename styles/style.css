@@ -1,6 +1,7 @@
 * {
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
+    scroll-behavior: smooth;
 }
 
 body::-webkit-scrollbar {
@@ -21,4 +22,14 @@ nav {
     background-image: url("https://cdn.pixabay.com/photo/2012/08/27/14/19/mountains-55067__340.png");
     background-size: cover;
     background-attachment: fixed;
+}
+
+.scroller {
+    overflow-y: scroll;
+    scroll-snap-type: y mandatory;
+    scroll-padding: 40px;
+}
+
+.scroller > * {
+    scroll-snap-align: center;
 }
