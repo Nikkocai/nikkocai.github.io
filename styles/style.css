@@ -30,7 +30,7 @@ main section {
     filter: sepia(.5);
 }
 
-.contenedor-cover .fa-caret-down {
+.arrow-scroll {
     opacity: 0;
     animation-name: fade;
     animation-duration: 4s;
@@ -39,9 +39,6 @@ main section {
     color: #fff;
     font-size: 30px;
     text-shadow: #FC0 1px 0 10px;
-    position: relative;
-    top: calc(100vh - 40px);
-    left: 50%;
 }
 
 .flex-basis-500 {
