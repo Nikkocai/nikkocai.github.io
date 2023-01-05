@@ -26,7 +26,7 @@ header {
 }
 
 .contenedor-cover {
-    box-shadow: inset 0 0 100px #000;
+    box-shadow: inset 0 0 100px 100px #000;
     min-height: 100vh;
     background-image: url("https://images.pexels.com/photos/270404/pexels-photo-270404.jpeg");
     background-attachment: fixed;
