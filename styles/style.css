@@ -85,10 +85,25 @@ main section {
         opacity: 0;
     }
 }
-
+/*
 .row * {
     border: 1px dashed grey;
 }
+*/
+.card-image {
+    height: 225px;
+    margin: auto;
+    width: fit-content;
+    object-fit: cover;
+}
+
+.card-image-contain {
+    height: 225px;
+    margin: auto;
+    width: fit-content;
+    object-fit: contain;
+}
+
 /*
 .scroller {
     height: 600px;
