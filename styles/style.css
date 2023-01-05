@@ -34,6 +34,14 @@ header {
     filter: sepia(.5);
 }
 
+.fade-in {
+    opacity: 0;
+    animation-name: fade-in;
+    animation-duration: 2s;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+}
+
 .arrow-scroll {
     opacity: 0;
     animation-name: fade;
@@ -87,6 +95,15 @@ header {
     }
     100% {
         opacity: 0;
+    }
+}
+
+@keyframes fade-in {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity:1;
     }
 }
 /*
