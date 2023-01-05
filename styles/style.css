@@ -23,6 +23,31 @@ nav {
     background-size: cover;
     background-attachment: fixed;
 }
+
+.contenedor-cover .fa-caret-down {
+    opacity: 0;
+    animation-name: fade;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-out;
+    color: #fff;
+    font-size: 20px;
+    position: relative;
+    top: calc(100vh - 40px);
+    left: 50%;
+}
+
+@keyframes fade {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
 /*
 .scroller {
     height: 600px;
