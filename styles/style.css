@@ -90,6 +90,10 @@ main section {
     border: 1px dashed grey;
 }
 */
+.card:hover .card-desc {
+    opacity: 1;
+}
+
 .card-image {
     height: 225px;
     margin: auto;
@@ -102,6 +106,21 @@ main section {
     margin: auto;
     width: fit-content;
     object-fit: contain;
+}
+
+.card-desc {
+    padding: 100px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #212529;
+    color: #fff
 }
 
 /*
