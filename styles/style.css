@@ -17,6 +17,10 @@ nav {
     font-weight: bold;
 }
 
+main section {
+    padding-top: 56px;
+}
+
 .contenedor-cover {
     min-height: 100vh;
     background-image: url("https://cdn.pixabay.com/photo/2012/08/27/14/19/mountains-55067__340.png");
@@ -35,6 +39,34 @@ nav {
     position: relative;
     top: calc(100vh - 40px);
     left: 50%;
+}
+
+#about-me {
+    color: #1e9428;
+}
+
+#education {
+    color: #94281e;
+}
+
+#work-experience {
+    color: #1e2894;
+}
+
+#it {
+    color: #94941e;
+}
+
+#skills {
+    color: #1e9494;
+}
+
+#languages {
+    color: #941e94;
+}
+
+#contact-info {
+    color: #949494;
 }
 
 @keyframes fade {
