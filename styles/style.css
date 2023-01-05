@@ -23,13 +23,15 @@ nav {
     background-size: cover;
     background-attachment: fixed;
 }
-
+/*
 .scroller {
+    height: 600px;
     overflow-y: scroll;
     scroll-snap-type: y mandatory;
     scroll-padding: 40px;
 }
 
-.scroller > * {
-    scroll-snap-align: center;
+.scroller .scroll-section {
+    scroll-snap-align: start;
 }
+*/
