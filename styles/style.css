@@ -1,0 +1,167 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    scroll-behavior: smooth;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+body {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+nav {
+    font-weight: bold;
+}
+
+main section {
+    padding-top: 56px;
+}
+
+header {
+    background-color: #000;
+}
+
+.contenedor-cover {
+    box-shadow: inset 0 0 100px 100px #000;
+    min-height: 100vh;
+    background-image: url("https://images.pexels.com/photos/270404/pexels-photo-270404.jpeg");
+    background-attachment: fixed;
+    background-size:cover;
+    filter: sepia(.5);
+}
+
+.fade-in {
+    opacity: 0;
+    animation-name: fade-in;
+    animation-duration: 2s;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+}
+
+.arrow-scroll {
+    opacity: 0;
+    animation-name: fade;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-out;
+    color: #fff;
+    font-size: 30px;
+    text-shadow: #FC0 1px 0 10px;
+}
+
+.flex-basis-500 {
+    flex: 1;
+    flex-basis: 500px;
+}
+
+#about-me {
+    color: #1e9428;
+}
+
+#education {
+    color: #94281e;
+}
+
+#work-experience {
+    color: #1e2894;
+}
+
+#it {
+    color: #94941e;
+}
+
+#skills {
+    color: #1e9494;
+}
+
+#languages {
+    color: #941e94;
+}
+
+#contact-info {
+    color: #949494;
+}
+
+#show-skills {
+    font-weight: bold;
+    border: none;
+}
+
+.ul-no-style{
+    list-style-type: none;
+}
+
+@keyframes fade {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes fade-in {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity:1;
+    }
+}
+/*
+.row * {
+    border: 1px dashed grey;
+}
+*/
+.card:hover .card-desc {
+    opacity: 1;
+}
+
+.card-image {
+    height: 225px;
+    margin: auto;
+    width: fit-content;
+    object-fit: cover;
+}
+
+.card-image-contain {
+    height: 225px;
+    margin: auto;
+    width: fit-content;
+    object-fit: contain;
+}
+
+.card-desc {
+    padding: 100px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #212529;
+    color: #fff
+}
+
+/*
+.scroller {
+    height: 600px;
+    overflow-y: scroll;
+    scroll-snap-type: y mandatory;
+    scroll-padding: 40px;
+}
+
+.scroller .scroll-section {
+    scroll-snap-align: start;
+}
+*/

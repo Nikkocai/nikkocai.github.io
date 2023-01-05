@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Nicolás Salvanescki">
+    <meta name="description" content="Currículum Vitae de Nicolás Salvanescki, Desarrollador Web Full Stack Jr, de Videojuegos Indie y más">
+    <title>Nicolás Salvanescki - Curriculum Vitae</title>
+    <!--Implementación del protocolo Open graph-->
+    <meta property="og:title" content="Nicolás Salvanescki CV" />
+    <meta property="og:description" content="Desarrollador Web Full Stack Jr, de Videojuegos Indie y más" />
+    <meta property="og:url" content="https://nikkocai.github.io" />
+    <meta property="og:type" content="landing page" />
+    <meta property="og:image" content="" />
+    <!--fontawesome-->
+    <script src="https://kit.fontawesome.com/468036b415.js" crossorigin="anonymous"></script>
+    <!--Roboto font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap" rel="stylesheet">
+    <!--Incluyo el favicon para todos los tamaños-->
+    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="assets/apple-touch-icon-57x57.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/apple-touch-icon-114x114.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/apple-touch-icon-72x72.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/apple-touch-icon-144x144.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="60x60" href="assets/apple-touch-icon-60x60.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="assets/apple-touch-icon-120x120.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="76x76" href="assets/apple-touch-icon-76x76.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="assets/apple-touch-icon-152x152.png" />
+    <link rel="icon" type="image/png" href="assets/favicon-196x196.png" sizes="196x196" />
+    <link rel="icon" type="image/png" href="assets/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/png" href="assets/favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="assets/favicon-16x16.png" sizes="16x16" />
+    <link rel="icon" type="image/png" href="assets/favicon-128.png" sizes="128x128" />
+    <meta name="application-name" content="&nbsp;"/>
+    <meta name="msapplication-TileColor" content="#FFFFFF" />
+    <meta name="msapplication-TileImage" content="mstile-144x144.png" />
+    <meta name="msapplication-square70x70logo" content="mstile-70x70.png" />
+    <meta name="msapplication-square150x150logo" content="mstile-150x150.png" />
+    <meta name="msapplication-wide310x150logo" content="mstile-310x150.png" />
+    <meta name="msapplication-square310x310logo" content="mstile-310x310.png" />
+    <!--CSS, Bootstrap y Normalize-->
+    <link rel="stylesheet" href="styles/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles/normalize.css">
+</head>
+<body>
+    <header>
+      <section class="contenedor-cover row p-0 m-0">
+        <div class="row justify-content-center align-items-center gap-4 p-4 m-0 bg-dark bg-opacity-75 align-self-end fade-in">
+          <div class="col-2 p-0">
+            <img src="assets/profile.png" alt="Nicolás Salvanescki" class="rounded-circle">
+          </div>
+          <div class="col col-md-4 col-lg-3 p-0">
+            <h1 class="text-white m-0">Nicolás Salvanescki</h1>
+            <h2 class="text-white-50 m-0">Currículum Vitae</h2>
+          </div>
+        </div>
+        <div class="row-1 p-0 m-0 align-items-end text-center align-self-end">
+          <i class="fa-solid fa-caret-down p-0 arrow-scroll pb-1"></i>
+        </div>
+      </section> 
+    </header>
+    <nav id="navbar" class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-items" aria-controls="navbar-items" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbar-items">
+              <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#about-me">
+                    <i class="fa-solid fa-user"></i>
+                    <span> Sobre mí</span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#it">
+                    <i class="fa-solid fa-code"></i> 
+                    <span> Informática</span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#education">
+                    <i class="fa-solid fa-pen-nib"></i> 
+                    <span> Formación</span>
+                    <span class="d-xl-inline-block d-lg-none"> Académica</span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#work-experience">
+                    <i class="fa-solid fa-briefcase"></i> 
+                    <span> Experiencia</span>
+                    <span class="d-xl-inline-block d-lg-none"> Laboral</span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#skills">
+                    <i class="fa-solid fa-lightbulb"></i> 
+                    <span> Habilidades</span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#languages">
+                    <i class="fa-solid fa-language"></i> 
+                    <span> Idiomas</span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#contact-info">
+                    <i class="fa-solid fa-message"></i> 
+                    <span class="d-xl-inline-block d-lg-none"> Información de</span>
+                    <span> Contacto</span>
+                  </a>
+                </li>
+            </div>
+          </div>
+    </nav>
+    <main id="main" class="container" data-bs-spy="scroll" data-bs-target="#navbar" data-bs-offset="0" tabindex="0">
+      <section id="about-me" class="row justify-content-center gap-2">
+        <h2 class="py-3">Sobre mí</h2>
+          <div class="col-lg-3 col-xl-3">
+            <img src="assets/profile.png" alt="Nicolás Salvanescki" class="rounded-circle">
+          </div>
+          <div class="w-100 d-block d-lg-none"></div> <!-- Fuerzo un wrap al breakpoint large a los más pequeños -->
+          <div class="col">
+            <h3>Nicolás Salvanescki</h3>
+            <h6>Desarrollador</h6>
+            <p>
+              Hola, mi nombre es Nicolás Salvanescki y soy un programador con experiencia en diferentes lenguajes de programación como Java, Python y C. He participado en varias game jams y he desarrollado varios videojuegos indie, lo que me ha permitido adquirir habilidades en la creación de juegos y aplicaciones.
+                        
+              Actualmente, estoy interesado en incursionar en el desarrollo web y estoy buscando oportunidades para seguir creciendo como profesional y así poder convertirme en un desarrollador Full Stack. Estoy dispuesto a aprender y a trabajar duro para lograrlo, y estoy seguro de que mi pasión por la programación y mi capacidad para crear soluciones me permitirán tener éxito en este campo.
+                        
+              Aunque no tengo experiencia laboral en empresas, he demostrado ser capaz de trabajar tanto de forma individual como en equipo y de adaptarme a diferentes entornos de trabajo. También me gusta seguir aprendiendo y mantenerme actualizado con las últimas tendencias y tecnologías del mundo de la programación.
+                        
+              Estaría encantado de aplicar mis habilidades y conocimientos en una empresa en la que pueda seguir creciendo y desarrollándome como profesional, y espero tener la oportunidad de demostrar mi valía como desarrollador Full Stack.
+            </p>
+          </div>
+      </section>
+      <section id="it" class="container">
+        <h2 class="py-3">Informática</h2>
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+          <div class="col">
+            <div class="card shadow-sm">              
+              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/2048px-HTML5_logo_and_wordmark.svg.png" alt="html html5 logo" class="card-image">
+              <div class="card-image card-desc rounded">HTML 5<br>Frontend: Estructura</div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">              
+              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1452px-CSS3_logo_and_wordmark.svg.png" alt="css css3 logo" class="card-image">
+              <div class="card-image card-desc rounded">CSS 3<br>Frontend: Diseño / Presentación</div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">              
+              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png" alt="js javascript logo" class="card-image">
+              <div class="card-image card-desc rounded">JavaScript<br>Frontend: Comportamiento / Validaciones</div>
+            </div>
+          </div>
+          
+          <div class="col">
+            <div class="card shadow-sm">              
+              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/800px-Bootstrap_logo.svg.png" alt="Bootstrap logo" class="card-image-contain">
+              <div class="card-image card-desc rounded">Bootstrap<br>CSS Framework</div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">              
+              <img src="https://upload.wikimedia.org/wikipedia/commons/d/d9/Node.js_logo.svg" alt="Node Node.js logo" class="card-image-contain">
+              <div class="card-image card-desc rounded">Node.js<br>Aprendiendo Backend</div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">              
+              <img src="https://upload.wikimedia.org/wikipedia/commons/6/64/Expressjs.png" alt="Express Express.js logo" class="card-image-contain">
+              <div class="card-image card-desc rounded">Express.js<br>Librería de Node.js</div>
+            </div>
+          </div>
+  
+          <div class="col">
+            <div class="card shadow-sm">              
+              <img src="https://upload.wikimedia.org/wikipedia/en/thumb/3/30/Java_programming_language_logo.svg/1200px-Java_programming_language_logo.svg.png" alt="java logo" class="card-image">
+              <div class="card-image card-desc rounded">Java<br>Desarrollo de Aplicaciones</div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">              
+              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1869px-Python-logo-notext.svg.png" alt="python logo" class="card-image">
+              <div class="card-image card-desc rounded">Python<br>Aprendiendo AI</div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">              
+              <img src="https://upload.wikimedia.org/wikipedia/commons/9/93/MongoDB_Logo.svg" alt="mongoDB logo" class="card-image-contain">
+              <div class="card-image card-desc rounded">MongoDB<br>Base de Datos</div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card shadow-sm">              
+              <img src="https://upload.wikimedia.org/wikipedia/commons/1/19/C_Logo.png" alt="c programming language logo" class="card-image">
+              <div class="card-image card-desc rounded">C<br>Programación Estructurada</div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">              
+              <img src="https://seeklogo.com/images/C/c-sharp-c-logo-02F17714BA-seeklogo.com.png" alt="c sharp c# logo" class="card-image">
+              <div class="card-image card-desc rounded">C#<br>Desarrollo de Videojuegos</div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">              
+              <img src="https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png" alt="git logo" class="card-image">
+              <div class="card-image card-desc rounded">Git<br>Manejo de Versiones</div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card shadow-sm">              
+              <img src="https://cdn.freebiesupply.com/logos/large/2x/unity-69-logo-png-transparent.png" alt="unity logo" class="card-image">
+              <div class="card-image card-desc rounded">Unity<br>Desarrollo de Videojuegos</div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">              
+              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Godot_icon.svg/2048px-Godot_icon.svg.png" alt="godot logo" class="card-image">
+              <div class="card-image card-desc rounded">Godot Engine<br>Desarrollo de Videojuegos</div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">              
+              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Ruby_logo.svg/1024px-Ruby_logo.svg.png" alt="ruby language logo" class="card-image">
+              <div class="card-image card-desc rounded">Ruby<br>Programación Orientada a Objetos</div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="education">
+        <h2 class="py-3">Formación Académica</h2>
+        <div class="row mb-2">
+          <div class="col-md-6">
+            <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+              <div class="row-auto d-none d-lg-block">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/b/bb/AccesoaUNQ.jpg" alt="Universidad Nacional de Quilmes UNQ" class="w-100 card-image">
+              </div>
+              <div class="row p-4 d-flex flex-row position-static">
+                <strong class="d-inline-block mb-2 text-danger">Universidad Nacional de Quilmes</strong>
+                <h3 class="mb-0">Licenciatura en Informática</h3>
+                <div class="mb-1 text-muted">2022 - En curso</div>
+                <a href="https://unq.edu.ar/" class="stretched-link text-danger">Sitio web de la UNQ</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+              <div class="row-auto d-none d-lg-block">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/b/be/Facultad_de_Ingenier%C3%ADa_de_la_Universidad_de_Buenos_Aires.JPG" alt="Facultad de Ingeniería de la Universidad de Buenos Aires Fiuba UBA" class="w-100 card-image">
+              </div>
+              <div class="row p-4 d-flex flex-row position-static">
+                <strong class="d-inline-block mb-2 text-danger">Facultad de Ingeniería | UBA</strong>
+                <h3 class="mb-0">Ingeniería en Informática</h3>
+                <div class="mb-1 text-muted">2016 - En espera</div>
+                <a href="https://fi.uba.ar/" class="stretched-link text-danger">Sitio web de la FIUBA</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+              <div class="row-auto d-none d-lg-block">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/b/bb/AccesoaUNQ.jpg" alt="Universidad Nacional de Quilmes UNQ" class="w-100 card-image">
+              </div>
+              <div class="row p-4 d-flex flex-row position-static">
+                <strong class="d-inline-block mb-2 text-danger">Universidad Nacional de Quilmes</strong>
+                <h3 class="mb-0">Tecnicatura Universitaria en Programación Informática</h3>
+                <div class="mb-1 text-muted">2022 - En curso</div>
+                <a href="https://unq.edu.ar/" class="stretched-link text-danger">Sitio web de la UNQ</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+              <div class="row-auto d-none d-lg-block">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/b/be/Facultad_de_Ingenier%C3%ADa_de_la_Universidad_de_Buenos_Aires.JPG" alt="Facultad de Ingeniería de la Universidad de Buenos Aires Fiuba UBA" class="w-100 card-image">
+              </div>
+              <div class="row p-4 d-flex flex-row position-static">
+                <strong class="d-inline-block mb-2 text-danger">Facultad de Ingeniería | UBA</strong>
+                <h3 class="mb-0">Licenciatura en Análisis de Sistemas</h3>
+                <div class="mb-1 text-muted">2016 - En espera</div>
+                <a href="https://fi.uba.ar/" class="stretched-link text-danger">Sitio web de la FIUBA</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+              <div class="row-auto d-none d-lg-block">
+                <img src="https://cdn.profesional.ticmas.io/logos/argentina-programa.svg" alt="Argentina Programa 4.0" class="w-100 card-image-contain">
+              </div>
+              <div class="row p-4 d-flex flex-row position-static">
+                <strong class="d-inline-block mb-2 text-danger">Ticmas Academy | Argentina Programa 4.0</strong>
+                <h3 class="mb-0">Primeros pasos en Front-end</h3>
+                <div class="mb-1 text-muted">2023 - En curso</div>
+                <a href="https://www.argentina.gob.ar/economia/conocimiento/argentina-programa" class="stretched-link text-danger">Sitio web de Argentina Programa 4.0</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+              <div class="row-auto d-none d-lg-block">
+                <img src="https://argentinaprograma.inti.gob.ar/pluginfile.php/1/theme_moove/sliderimage1/1668983675/banner-ok-argentina-programa.jpg" alt="Argentina Programa" class="w-100 card-image">
+              </div>
+              <div class="row p-4 d-flex flex-row position-static">
+                <strong class="d-inline-block mb-2 text-danger">Argentina Programa</strong>
+                <h3 class="mb-0">#SeProgramar</h3>
+                <div class="mb-1 text-muted">2022</div>
+                <a href="https://www.argentina.gob.ar/economia/conocimiento/argentina-programa" class="stretched-link text-danger">Sitio web de Argentina Programa</a>
+              </div>
+            </div>
+          </div>  
+        </div>
+      </section>
+      <section id="work-experience">
+        <h2 class="py-3">Experiencia Laboral</h2>
+        <p>Como no cuento con experiencia laboral en empresas aún, voy a aprovechar este espacio para dejar los videojuegos que programé para game jams. La mayoria de ellos los hice en colaboración con dos amigos FunkyPepe y MaxTales que se encargaron de hacer la música y el arte, así que si les gusta el apartado artístico vayan a ver sus redes sociales, las pueden encontrar en los links de los juegos.<br>
+          NOTA: Los juegos tienen traducción al español (cambiar idioma en el menú de pausa)</p>
+        <div class="row mb-2">
+          <div class="col-md-4">
+            <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+              <div class="row-auto d-block">
+                <img src="https://img.itch.zone/aW1nLzk4NDY5MzkucG5n/315x250%23c/rlhmnT.png" alt="Stranded Sun" class="w-100 card-image">
+              </div>
+              <div class="row p-4 d-flex flex-row position-static">
+                <strong class="d-inline-block mb-2 text-primary">Nikkocai, FunkyPepe, MaxTales</strong>
+                <h3 class="mb-0">Stranded Sun</h3>
+                <div class="mb-1 text-muted">2022 #GodotWildJam</div>
+                <p class="card-text mb-auto">
+                  Bienvenido a la Luna! un hermoso lugar lleno de polvo, lugares abandonados y... ¡¿Monstruos?!<br>
+                  RPG, Shooter, RogueLite
+                </p>
+                <a href="https://nikkocai.itch.io/stranded-sun" class="stretched-link"></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+              <div class="row-auto d-block">
+                <img src="https://img.itch.zone/aW1nLzI0NTEwNzQucG5n/315x250%23c/qj6zNs.png" alt="We Don't Lie Corp" class="w-100 card-image">
+              </div>
+              <div class="row p-4 d-flex flex-row position-static">
+                <strong class="d-inline-block mb-2 text-primary">Nikkocai, FunkyPepe, MaxTales</strong>
+                <h3 class="mb-0">We Don't Lie Corp</h3>
+                <div class="mb-1 text-muted">2019 #CommunityGameJam</div>
+                <p class="card-text mb-auto">
+                  No eres bienvenido a nuestras instalaciones... o quizas era al revés?<br>
+                  Platformer, Adventure, RPG
+                </p>
+                <a href="https://funkypepe.itch.io/we-dont-lie-corp" class="stretched-link"></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+              <div class="row-auto d-block">
+                <img src="https://img.itch.zone/aW1nLzQwMTM4NzkucG5n/315x250%23c/gJYOfu.png" alt="Time Climber" class="w-100 card-image">
+              </div>
+              <div class="row p-4 d-flex flex-row position-static">
+                <strong class="d-inline-block mb-2 text-primary">Nikkocai</strong>
+                <h3 class="mb-0">Time Climber</h3>
+                <div class="mb-1 text-muted">2020 #BrackeysGameJam</div>
+                <p class="card-text mb-auto">
+                  Estás perdido en el espacio y tenés que encontrar un portal que te lleve a casa<br>
+                  Platformer, Puzzle
+                </p>
+                <a href="https://nikkocai.itch.io/time-climber" class="stretched-link"></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="skills">
+        <h2 class="py-3">Habilidades</h2>
+        <button id="show-skills" class="bg-dark text-white p-2">Mostrar Habilidades</button>
+        <div id="skills-list"></div>
+      </section>
+      <section id="languages">
+        <h2 class="py-3">Idiomas</h2>
+        <ul class="ul-no-style">
+          <li><img src="https://icons.iconarchive.com/icons/wikipedia/flags/24/ES-Spain-Flag-icon.png" alt="Spain Flag Bandera de España ES Español Spanish"> Español (Nativo)</li>
+          <li><img src="https://icons.iconarchive.com/icons/wikipedia/flags/24/US-United-States-Flag-icon.png" alt="United States Flag Bandera de Estados Unidos US Inglés English"> Inglés (Intermedio)</li>
+        </ul>
+      </section>
+      <section id="contact-info">
+        <h2 class="py-3">Información de Contacto</h2>
+        <p>En caso que quieras contactarme, puedes hacerlo mandando un mail a <a href="mailto:nicolas_salvanescki@hotmail.com" class="link-success">nicolas_salvanescki@hotmail.com</a>, o también aquí debajo a la derecha puedes encontrar links a mi <a href="https://github.com/Nikkocai" class="link-success">Github</a> y <a href="https://www.linkedin.com/in/salvanesckinicolas/" class="link-success">LinkedIn</a></p>
+      </section>
+    </main>
+    <div class="container">
+      <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+        <div class="col-md-4 d-flex align-items-center">
+          <a href="#" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1"><i class="fa-solid fa-house"></i></a>
+          <span class="mb-3 mb-md-0 text-muted">&copy; 2023 Nicolás Salvanescki</span>
+        </div>
+    
+        <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+          <li class="ms-3"><a class="text-muted" href="https://github.com/Nikkocai"><i class="fa-brands fa-github"></i></a></li>
+          <li class="ms-3"><a class="text-muted" href="https://linkedin.com/in/salvanesckinicolas/"><i class="fa-brands fa-linkedin"></i></i></a></li>
+          <li class="ms-3"><a class="text-muted" href="https://nikkocai.itch.io/"><i class="fa-brands fa-itch-io"></i></a></li>
+        </ul>
+      </footer>
+    </div>
+    <script src="scripts/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</body>
+</html>
