@@ -15,7 +15,7 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        mainViewModel.result.observe(this) {
+        mainViewModel.inputResult.observe(this) {
             binding.resultOutput.text = if (it.cmp) "Son iguales" else "No son iguales"
         }
 

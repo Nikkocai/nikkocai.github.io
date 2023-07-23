@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">Proyecto Final</string>
-    <string name="textFieldPlaceHolder">Escriba aquí</string>
     <string name="btnText">Comparar</string>
     <string name="resultText"> </string>
+    <string name="textFieldOnePlaceholder">Escribe la primera cadena de texto</string>
+    <string name="textFieldTwoPlaceholder">Escribe la segunda cadena de texto</string>
 </resources>
