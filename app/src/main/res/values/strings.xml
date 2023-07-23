@@ -4,4 +4,7 @@
     <string name="resultText"> </string>
     <string name="textFieldOnePlaceholder">Escribe la primera cadena de texto</string>
     <string name="textFieldTwoPlaceholder">Escribe la segunda cadena de texto</string>
+    <string name="equal">Son iguales</string>
+    <string name="nonequal">Son diferentes</string>
+    <string name="resultLabel">"Resultado: "</string>
 </resources>

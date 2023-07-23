@@ -3,6 +3,7 @@ package com.curso.android.app.practica.proyectofinal.view
 import android.os.Bundle
 import androidx.activity.viewModels
 import androidx.appcompat.app.AppCompatActivity
+import com.curso.android.app.practica.proyectofinal.R
 import com.curso.android.app.practica.proyectofinal.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
@@ -16,7 +17,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         mainViewModel.inputResult.observe(this) {
-            binding.resultOutput.text = if (it.cmp) "Son iguales" else "No son iguales"
+            binding.resultOutput.text = if (it.cmp) getString(R.string.equal) else getString(R.string.nonequal)
         }
 
         binding.cmpBtn.setOnClickListener{
