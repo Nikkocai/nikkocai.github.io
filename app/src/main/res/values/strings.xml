@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Proyecto Final</string>
+    <string name="app_name">StrCompare</string>
     <string name="btnText">Comparar</string>
     <string name="resultText"> </string>
     <string name="textFieldOnePlaceholder">Escribe la primera cadena de texto</string>
