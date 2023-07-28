@@ -25,16 +25,18 @@ class MainActivityTest {
         Espresso.onView(
             ViewMatchers.withId(R.id.textField1)
         ).perform(
-            ViewActions.typeText(holaMundo)
+            ViewActions.clearText(),
+            ViewActions.typeText(holaMundo),
+            ViewActions.closeSoftKeyboard()
         )
 
         Espresso.onView(
             ViewMatchers.withId(R.id.textField2)
         ).perform(
-            ViewActions.typeText(holaMundo)
+            ViewActions.clearText(),
+            ViewActions.typeText(holaMundo),
+            ViewActions.closeSoftKeyboard()
         )
-
-        Espresso.pressBack()
 
         Espresso.onView(
             ViewMatchers.withId(R.id.cmpBtn)
@@ -58,16 +60,18 @@ class MainActivityTest {
         Espresso.onView(
             ViewMatchers.withId(R.id.textField1)
         ).perform(
-            ViewActions.typeText(str1)
+            ViewActions.clearText(),
+            ViewActions.typeText(str1),
+            ViewActions.closeSoftKeyboard()
         )
 
         Espresso.onView(
             ViewMatchers.withId(R.id.textField2)
         ).perform(
-            ViewActions.typeText(str2)
+            ViewActions.clearText(),
+            ViewActions.typeText(str2),
+            ViewActions.closeSoftKeyboard()
         )
-
-        Espresso.pressBack()
 
         Espresso.onView(
             ViewMatchers.withId(R.id.cmpBtn)
